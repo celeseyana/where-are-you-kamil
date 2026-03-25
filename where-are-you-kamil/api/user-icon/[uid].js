@@ -6,7 +6,7 @@ export default async (req, res) => {
         
         const [profileResponse, leaderboardResponse] = await Promise.all([
         fetch(`https://bestdori.com/api/player/en/${uid}?mode=2`),
-        fetch('https://bestdori.com/api/eventtop/data?server=1&event=296&mid=0&latest=1')
+        fetch('https://bestdori.com/api/eventtop/data?server=1&event=295&mid=0&latest=1')
         ]);
 
         const [profileData, leaderboardData] = await Promise.all([
