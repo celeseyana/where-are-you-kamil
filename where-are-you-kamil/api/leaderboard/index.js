@@ -2,7 +2,7 @@ import fetch from 'node-fetch';
 
 export default async (req, res) => {
     try {
-        const response = await fetch('https://bestdori.com/api/eventtop/data?server=1&event=261&mid=0&latest=1');
+        const response = await fetch('https://bestdori.com/api/eventtop/data?server=1&event=296&mid=0&latest=1');
         const data = await response.json();
         
         res.setHeader('Access-Control-Allow-Origin', '*');
